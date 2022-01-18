@@ -8,7 +8,7 @@ function addImage(randomNumber1) {
  }
 
  function addImage2(randomNumber2) {
-                document.querySelector(".img2").setAttribute("src",`:images:dice{randomNumber2}.png` );
+                document.querySelector(".img2").setAttribute("src",`:images:dice${randomNumber2}.png` );
 
  }
 
